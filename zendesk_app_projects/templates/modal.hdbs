@@ -1,0 +1,132 @@
+<!-- modal.hdbs -->
+<div class="wait">
+	<div class="spinner dotted"></div>
+</div>
+<div class="modal hide fade my_modal my_modal1 compact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		<h3 class="my_modal_label">{{t "modal_header1"}}</h3>
+	</div>
+
+	<div class="modal-body">
+		<form class="form-horizontal project-selection">
+			<p class="alert alert-error errors"></p>
+			<div class="control-group project-selection">
+				<input type="text" class="input-tb-project project" placeholder='{{t "placeholders1"}}' data-provide="typeahead" autocomplete="off" data-items="4" data-source="['123','21','31']">
+			</div>
+			<div class="wait">
+				<div class="spinner dotted"></div>
+			</div>
+			<div class="new-form">
+				<div class="control-group">
+					<label for="" class="control-label">Project Name</label>
+					<div class="controls">
+						<div class="project-field"></div>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Task Group</label>
+					<div class="controls">
+						<input id="taskgroup" type="text" class="requester input-xlarge ui-autocomplete-input" type="text" required autocomplete="off">
+						<span  role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Task Phase</label>
+					<div class="controls">
+						<input type="text" class="requester input-xlarge ui-autocomplete-input" type="text" required autocomplete="off">
+						<span  role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Reporter</label>
+					<div class="controls">
+						<input id="reporter" type="text" class="requester input-xlarge ui-autocomplete-input" type="text" required autocomplete="off">
+						<span  role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Assigner</label>
+					<div class="controls">
+						<input type="text" placeholder="auto" class="requester input-xlarge ui-autocomplete-input" type="text" autocomplete="on">
+						<span  role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Type</label>
+					<div class="controls">
+						<select class="type input-xlarge">
+							<option value="10000">Task</option>
+							<option value="10001">Sub-task</option>
+						</select>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Header</label>
+					<div class="controls">
+						<input type="text" class="requester input-xlarge ui-autocomplete-input" type="text" required autocomplete="off">
+						<span  role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Description</label>
+					<div class="controls">
+						<textarea id="description" class="description input-xlarge"></textarea>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Attaches</label>
+					<div class="controls">
+						<input type="file">
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="modal-footer">
+		<a href="#" class="copy-ticket hide">Copy from ticket</a>
+		<button class="btn" data-dismiss="modal" aria-hidden="true">{{t "close_button"}}</button>
+		<button class="btn btn-primary create_button" aria-hidden="true" disabled>{{t "create_button"}}</button>
+	</div>
+</div>
+<div class="modal hide fade my_modal my_modal2 compact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		<h3 class="my_modal_label">{{t "modal_header2"}}</h3>
+	</div>
+
+	<div class="modal-body">
+		<form class="form-horizontal project-selection">
+			<p class="alert alert-error errors"></p>
+			<div class="control-group project-selection">
+				<input type="text" class="input-tb-project project ui-autocomplete-input" placeholder='{{t "placeholders2"}}'>
+			</div>
+		</form>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">{{t "close_button"}}</button>
+		<button class="btn btn-primary link_button" data-dismiss="modal" aria-hidden="true" disabled>{{t "link_button"}}</button>
+	</div>
+</div>
+<div class="modal hide fade my_modal my_modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		<h3 class="my_modal_label">{{t "modal_header3"}}</h3>
+	</div>
+
+	<div class="modal-body">
+		<textarea class="copy-comment" placeholder='{{t "placeholders2"}}'></textarea>
+	</div>
+	<div class="modal-footer">
+		<a class="link copy-last-comment">{{t "copy_last_link"}}</a>
+		<button class="btn" data-dismiss="modal" aria-hidden="true">{{t "close_button"}}</button>
+		<button class="btn btn-primary notify_button" data-dismiss="modal" aria-hidden="true">{{t "notify_button"}}</button>
+	</div>
+</div>
+<div class="modal_button_cell hide">
+	<a data-target=".my_modal1" data-toggle="modal" class="btn btn-large1">{{t "modal_button1"}}</a>
+	<a data-target=".my_modal2" data-toggle="modal" class="btn btn-large2">{{t "modal_button2"}}</a>
+	<a data-target=".my_modal3" data-toggle="modal" class="btn btn-large3">{{t "modal_button3"}}</a>
+</div>
+<div class="issues">
+</div>

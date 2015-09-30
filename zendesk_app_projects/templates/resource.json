@@ -1,0 +1,12 @@
+{
+	"id":"10001",
+	"key":"Test",
+	"fields":{
+		"project":{
+			"id":"10000",
+			"description": "A task that needs to be done.",
+			"name": "Task",
+			"subtask": false
+		}
+	}
+}

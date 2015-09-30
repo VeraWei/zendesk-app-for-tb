@@ -1,0 +1,141 @@
+{
+  "app": {
+    "package": "app_name",
+    "description": {
+      "value": "Play the famous zen tunes in your help desk.",
+      "title": "app description"
+    },
+    "name": {
+      "value": "Buddha Machine",
+      "title": "app name"
+    }
+  },
+
+  "loading": {
+    "value": "Welcome to this Sample App",
+    "title": "loading placeholder"
+  },
+
+  "fetch": {
+    "done": {
+      "value": "Good",
+      "title": "fetch success"
+    },
+    "fail": {
+      "value": "failed to fetch information from the server",
+      "title": "fetch failure"
+    }
+  },
+
+  "id": {
+    "value": "ID",
+    "title": "user id"
+  },
+
+  "email": {
+    "value": "Email",
+    "title": "user email"
+  },
+
+  "name": {
+    "value": "Name",
+    "title": "user name"
+  },
+
+  "role": {
+    "value": "Role",
+    "title": "user role"
+  },
+
+  "groups": {
+    "value": "Groups",
+    "title": "user groups"
+  },
+
+  "description": {
+    "value": "This is a simple sample modal app that illustrates how to use data attribute to invoke modal.",
+    "title": "in app instruction"
+  },
+  "linkedTasks":{
+    "value":"Linked Tasks",
+    "title":"Show all the linked tasks"
+  },
+  "noLinkedTasks":{
+    "value":"There is no linked task.",
+    "title":"Show all the linked tasks"
+  },
+  "modal_button1": {
+    "value": "Create Task",
+    "title": "Message on the button in the sidebar app interface"
+  },
+
+  "modal_button2": {
+    "value": "Link Task",
+    "title": "Message on the button in the sidebar app interface"
+  },
+
+  "modal_button3": {
+    "value": "Notify Task",
+    "title": "Message on the button in the sidebar app interface"
+  },
+  "placeholders1":{
+    "value": "input your project's name",
+    "title":"placeholder1's message"
+  },
+  "placeholders2":{
+    "value": "input your task's code or paste the task's url",
+    "title":"placeholder2's message"
+  },
+  "placeholders3":{
+    "value": "input some text to notify others",
+    "title":"placeholder3's message"
+  },
+  "create_button":{
+    "value": "Create Task",
+    "title": "Message on the create button in modal"
+  },
+  
+  "link_button":{
+    "value": "Link Task",
+    "title": "Message on the link button in modal"
+  },
+  "notify_button":{
+    "value": "Notify Task",
+    "title": "Message on the notify button in modal"
+  },
+  "save_button":{
+    "value": "Save Changes",
+    "title": "Message on the save button in modal"
+  },
+
+  "close_button":{
+    "value": "Return",
+    "title": "Message on the close button in modal"
+  },
+
+  "copy_last_link":{
+    "value": "Copy the last comment",
+    "title": "Message on the copy last link in modal"
+  },
+
+  "modal_header1": {
+   "value": "Create a new Task",
+   "title": "Header message inside the modal window"
+  },
+  "modal_header2": {
+   "value": "Link an existing taks",
+   "title": "Header message inside the modal window"
+  },
+  "modal_header3": {
+   "value": "Notify task",
+   "title": "Header message inside the modal window"
+  },
+  "modal_body": {
+    "value": "Keep Calm! Make a Zendesk App.",
+    "title": "Message inside a modal window that plays on the 'Keep Calm! Make a Zendesk App' phase"
+  },
+  "settings_header": {
+    "value": "Mange",
+    "title": "settings header"
+  }
+}

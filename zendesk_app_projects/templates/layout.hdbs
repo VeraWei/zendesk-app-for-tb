@@ -1,0 +1,14 @@
+<header>
+  <span class="logo"></span>
+  <a class="cog">
+  	<i class="icon-cog"></i>
+  </a>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main>
+</section>
+<footer>
+  <a href="mailto:{{author.email}}">
+    {{author.name}}
+  </a>
+</footer>

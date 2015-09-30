@@ -1,0 +1,86 @@
+<!-- setting.hdbs -->
+<div class="admin">
+	<a class="close-admin">
+		<i class="icon-circle-arrow-left"></i>
+	</a>
+	<h3>{{header}}</h3>
+	<div class="content">
+		<table class="table">
+		  <thead>
+		    <tr class="heading">
+		      <th></th>
+		      <th class="center">概要</th>
+		      <th class="center">详情</th>
+		    </tr>
+		  </thead>
+	  
+	    <tbody>
+		    <tr data-id="taskName">
+		      <td>Task Name</td>
+		      <td class="center"><input type="checkbox" class="summary-setting" checked=""></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="remark">
+		      <td>Remark</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+
+		    <tr data-id="project">
+		      <td>Belong Project</td>
+		      <td class="center"><input type="checkbox" class="summary-setting" checked=""></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="taskGroup">
+		      <td>Task Group</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="taskPhase">
+		      <td>Task Phase</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="priority">
+		      <td>Priority</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="deadline">
+		      <td>Deadline</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="assignee">
+		      <td>Assignee</td>
+		      <td class="center"><input type="checkbox" class="summary-setting" checked=""></td>
+		      <td class="center"><input type="checkbox" class="details-setting"></td>
+		    </tr>
+
+		    <tr data-id="creator">
+		      <td>Creator</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting" checked=""></td>
+		    </tr>
+		  
+		    <tr data-id="labels">
+		      <td>Labels</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting"></td>
+		    </tr>
+		  
+		    <tr data-id="components">
+		      <td>Component/s</td>
+		      <td class="center"><input type="checkbox" class="summary-setting"></td>
+		      <td class="center"><input type="checkbox" class="details-setting"></td>
+		    </tr>
+	  	</tbody>
+		</table>
+	</div>
+</div>

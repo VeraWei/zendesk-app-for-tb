@@ -1,0 +1,68 @@
+header span.logo{
+	background-image: app-asset-url("logo-small.png");
+}
+.cog{
+	margin-top: 6px;
+	margin-right: 8px;
+	opacity: 0.5;
+	float: right;
+}
+.modal{
+	display: none;
+	width: 560px;
+	margin-top: -340px;
+	margin-left: -280px;
+	overflow: hidden;
+}
+.modal-body{
+	max-height: 590px;
+}
+.modal_button_cell{
+	border-bottom: 1px dotted #CCC;
+	padding-bottom: 12px;
+}
+h3{
+	font-size: 14px;
+	line-height: 30px;
+}
+.alert-error{
+	display: none;
+}
+.input-tb-project{
+	width: 100%;
+	height: auto;
+	box-sizing:border-box;
+}
+.my_modal3 textarea{
+	width: 100%;
+	height: 100px;
+	box-sizing:border-box;
+}
+.my_modal.compact{
+	width: 449px;
+	margin-left: -225px;
+}
+.copy-ticket{
+	margin-right: 5px;
+}
+.controls{
+	padding: 5px;
+}
+.controls input{
+	line-height: 18px;
+}
+.form-horizontal .control-label{
+	text-align: left;
+	padding-left: 20px;
+}
+#description{
+	height: 100px;
+}
+/*admin style*/
+.admin .close-admin{
+	float: right;
+	opacity: 0.5;
+}
+.center{
+	text-align: center;
+}
