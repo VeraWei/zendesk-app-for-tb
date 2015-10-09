@@ -1,11 +1,17 @@
 header span.logo{
 	background-image: app-asset-url("logo-small.png");
 }
+.header{
+	margin-bottom: 8px;
+}
 .cog{
 	margin-top: 6px;
 	margin-right: 8px;
 	opacity: 0.5;
 	float: right;
+}
+.cog:hover{
+	opacity: 1;
 }
 .modal{
 	display: none;
@@ -17,9 +23,9 @@ header span.logo{
 .modal-body{
 	max-height: 590px;
 }
-.modal_button_cell{
-	border-bottom: 1px dotted #CCC;
-	padding-bottom: 12px;
+hr.split{
+	margin-top: 8px;
+	margin-bottom: 10px;
 }
 h3{
 	font-size: 14px;
@@ -55,7 +61,7 @@ h3{
 	text-align: left;
 	padding-left: 20px;
 }
-#description{
+.description{
 	height: 100px;
 }
 /*admin style*/
@@ -63,6 +69,47 @@ h3{
 	float: right;
 	opacity: 0.5;
 }
+
+.admin .close-admin:hover{
+	opacity: 1;
+}
 .center{
 	text-align: center;
+}
+/*related issue*/
+.issues h3{
+	font-size: 13px;
+	line-height: 13px;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 8px;
+	margin-bottom: 18px;
+}
+.issues .action{
+	opacity: 0.2;
+}
+
+.issues .action:hover{
+	opacity: 1;
+}
+.issues .issue{
+	padding-left: 30px;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 17px;
+	margin-top: 18px;
+	position: relative;
+}
+.issues .issue .avatar{
+	   float: left;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+}
+.issues .issue ul{
+	margin-left: 0;
+	color: #7b7b7b;
+}
+.issues .issue .avatar svg{
+	width: 16px;
+	height: 16px;
+	fill:#555;
 }

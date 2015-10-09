@@ -6,6 +6,9 @@
   <h3>{{setting "name"}}</h3>
 </header>
 <section data-main>
+	<div class="wait">
+		<div class="spinner dotted"></div>
+	</div>
 </section>
 <footer>
   <a href="mailto:{{author.email}}">

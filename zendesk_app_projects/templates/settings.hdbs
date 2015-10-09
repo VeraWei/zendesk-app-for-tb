@@ -74,12 +74,12 @@
 		      <td class="center"><input type="checkbox" class="summary-setting"></td>
 		      <td class="center"><input type="checkbox" class="details-setting"></td>
 		    </tr>
-		  
+		  <!-- 
 		    <tr data-id="components">
 		      <td>Component/s</td>
 		      <td class="center"><input type="checkbox" class="summary-setting"></td>
 		      <td class="center"><input type="checkbox" class="details-setting"></td>
-		    </tr>
+		    </tr> -->
 	  	</tbody>
 		</table>
 	</div>
